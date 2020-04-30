@@ -1,12 +1,15 @@
 # picos_CPLEX_Chinese
 中文版本Python_picos（求解器CPLEX）教程
 ====
-自己进行安装的过程中发现这方面的中文教程很少，现做记录，如有缺漏失误，请随时提醒我。
+自己进行安装、优化、求解的过程中发现这方面的中文教程很少，现做记录，如有缺漏失误，请随时提醒我。
+原文档地址：https://picos-api.gitlab.io/picos/introduction.html#installation
 
 # 1.简介
 
 picos是一个用于优化求解的Python API，适用于多个求解器，支持Python 2.x和3.x各版本。
+常用底层求解器包括CPLEX、CVXOPT、ECOS、GLPK、Gurobi、MOSEK、SCIP以及SMCP。
 CPLEX是IBM推出的底层优化器，分为社区版和学术版，社区版可以在官网下载，适用于数据较少的情况。学术版则需要使用学校邮箱进行申请，可免费使用。
+
 
 # 2.安装
 
